@@ -19,11 +19,18 @@
  * [田浦健次朗](https://www.eidos.ic.i.u-tokyo.ac.jp/~tau/) 東京大学大学院 [情報理工学系研究科](https://www.i.u-tokyo.ac.jp/) [電子情報学専攻](https://www.i.u-tokyo.ac.jp/edu/course/ice/index.shtml) 
 * 主たる研究分担者
  * [吉川正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/) 京都大学大学院 [情報学研究科](https://www.i.kyoto-u.ac.jp/) [社会情報学専攻](https://www.soc.i.kyoto-u.ac.jp/)
- * 花岡昇平 東京大学 [附属病院](https://www.h.u-tokyo.ac.jp/) [放射線科](http://www.ut-radiology.umin.jp/) 
+ * 花岡昇平 東京大学 [附属病院](https://www.h.u-tokyo.ac.jp/) [放射線科](http://www.ut-radiology.umin.jp/) [画像情報処理解析研究室](http://www.ut-radiology.umin.jp/ical/) [CV](https://1drv.ms/w/s!AsqSQ39DdrGCg-5M5j3wuuh_IyPwPQ?e=1GGkOt)
  * [塙敏博](https://www.cspp.cc.u-tokyo.ac.jp/hanawa/) 東京大学 [情報基盤センター](https://www.itc.u-tokyo.ac.jp/) 
  * [曹洋](https://yangcao88.github.io/) 北海道大学 [情報科学研究院](https://www.ist.hokudai.ac.jp/) [情報理工学部門](https://www.csit.ist.hokudai.ac.jp/)
 * 共同研究者
- * ...
+ * 花岡G
+   * 柴田 寿一 - [DP-Glow](https://www.mdpi.com/2076-3417/13/18/10132) 
+   * 竹永 智美 - Local differential privacy protection for multi-dimensional medical checkup data: real-world validation (under review)
+   * Alam MD Ashraful - Estimation of future occurrence of HbA1c elevation with and without Differential Privacy (under review)
+   * 菊地 智博 ＠ 自治医大放射線科 - [Synthetic data generation method for hybrid image-tabular data using two generative adversarial networks.](https://arxiv.org/abs/2308.07573)
+   * 野村 行弘 ＠ [千葉大 野村研究室](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - [DPSGD](https://1drv.ms/i/s!AsqSQ39DdrGCjagndybXE2nYbw9F-A?e=f16Qss)
+   * 山田 藍樹 ＠ [千葉大 野村研究室](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - Investigation of federated learning for automated cerebral aneurysm detection in head MR angiography images (peresented in CARS 2023)
+
 
 ## 研究内容
 
@@ -59,3 +66,15 @@
 
 ## 医療・軌跡データ実応用での実証 
 
+ 1. 医療サブテーマ
+  * 医療サブテーマでは、以下の3つの実証を主に行う
+  * 医療現場で実用可能な差分プライバシーによるプライバシー保護システムの開発、デプロイ、実使用経験の蓄積
+  * 田浦Gとの共働 -
+    ![個人情報保護を強制するプログラミング基盤 の 医療への展開](img/TauraHanaoka.png)
+    ここでは主に、AIを学習する側、特にAI学習に必須である学習データセットのプライバシーを守るため、
+    田浦Gが開発しているプライバシー強制技術を使った上で、AIをdifferentially private stochastic gradient discent (DPSGD)の
+    枠組みで学習することにより、学習データに使われた患者さんの情報が漏洩しにくいようなAI学習の手法論を確立することが目的です。
+  * 塙Gとの共働 -
+    ![セキュアな医用AIの実臨床](img/HanawaHanaoka.png)
+    ここでは主に、デプロイ側、つまり学習済みのAIをいかに秘密演算やスーパーコンピュータを使って安全に、スケーラブルに
+    実行し、結果を臨床医や患者さんに届けるかを考え、研究を進めて参ります。
