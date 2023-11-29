@@ -68,7 +68,7 @@
 
 -  **TEEを用いるプライバシー保護型連合学習**
 
-![VLDB23-Olive](/Users/yangcao/Dropbox/GitHub/secure-privacy-project.github.io/docs/img/VLDB23-Olive.png)
+![VLDB23-Olive](img/VLDB23-Olive.png)
 
 
 
