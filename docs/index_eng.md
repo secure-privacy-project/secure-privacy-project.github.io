@@ -1,8 +1,3 @@
----
-title: Privacy-Preserving Data Analysis and Secure Data Infrastructure for Real Applications
-top: true
-toc: true
----
 <style>
   body {
     font-family: Times-New-Roman;

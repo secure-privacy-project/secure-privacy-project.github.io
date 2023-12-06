@@ -1,8 +1,3 @@
----
-title: 実応用に即したプライバシー保護解析とセキュアデータ基盤
-top: true
-toc: true
----
 <style>
   body {
     font-family: Meiryo;
