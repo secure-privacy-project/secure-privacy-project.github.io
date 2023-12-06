@@ -1,3 +1,8 @@
+---
+title: Privacy-Preserving Data Analysis and Secure Data Infrastructure for Real Applications
+top: true
+toc: true
+---
 <style>
   body {
     font-family: Times-New-Roman;
@@ -17,24 +22,24 @@ This project has been adopted in the JST CREST field ["Creation of System Softwa
 ## Team
 
 * Principal Investigator
- * [Kenjiro Taura](https://www.eidos.ic.i.u-tokyo.ac.jp/~tau/) - The University of Tokyo Graduate School of Information Science and Technology, Department of Electronic Information
+  * [Kenjiro Taura](https://www.eidos.ic.i.u-tokyo.ac.jp/~tau/) - The University of Tokyo Graduate School of Information Science and Technology, Department of Electronic Information
 * Principal Research Collaborators
- * [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/) - Kyoto University Graduate School of Informatics, Department of Social Informatics
- * Shouhei Hanaoka - The University of Tokyo Hospital, Department of Radiology, Image Information Processing and Analysis Laboratory
- * [Toshihiro Hanawa](https://www.cspp.cc.u-tokyo.ac.jp/hanawa/) - The University of Tokyo Information Technology Center
- * [Yang Cao](https://yangcao88.github.io/) - Hokkaido University Institute of Information Science, Division of Information and Computer Science
+  * [Masatoshi Yoshikawa](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/) - Kyoto University Graduate School of Informatics, Department of Social Informatics
+  * Shouhei Hanaoka - The University of Tokyo Hospital, Department of Radiology, Image Information Processing and Analysis Laboratory
+  * [Toshihiro Hanawa](https://www.cspp.cc.u-tokyo.ac.jp/hanawa/) - The University of Tokyo Information Technology Center
+  * [Yang Cao](https://yangcao88.github.io/) - Hokkaido University Institute of Information Science, Division of Information and Computer Science
 * Collaborators
- * Kenjiro Taura Group
-   * Osamu Tatebe
-   * JIANG Renhe
-   * Kento Aida
- * Shouhei Hanaoka Group
-   * Shuichi Shibata - [DP-Glow](https://www.mdpi.com/2076-3417/13/18/10132)
-   * Tomomi Takenaga - Local differential privacy protection for multi-dimensional medical checkup data: real-world validation (under review)
-   * Alam MD Ashraful - Estimation of future occurrence of HbA1c elevation with and without Differential Privacy (under review)
-   * Tomohiro Kikuchi @ Jichi Medical University Radiology Department - [Synthetic data generation method for hybrid image-tabular data using two generative adversarial networks.](https://arxiv.org/abs/2308.07573)
-   * Yukihiro Nomura @ [Chiba University Nomura Laboratory](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - [DPSGD](https://1drv.ms/i/s!AsqSQ39DdrGCjagndybXE2nYbw9F-A?e=f16Qss)
-   * Aiki Yamada @ [Chiba University Nomura Laboratory](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - Investigation of federated learning for automated cerebral aneurysm detection in head MR angiography images (presented in CARS 2023)
+  * Kenjiro Taura Group
+    * Osamu Tatebe
+    * JIANG Renhe
+    * Kento Aida
+  * Shouhei Hanaoka Group
+    * Shuichi Shibata - [DP-Glow](https://www.mdpi.com/2076-3417/13/18/10132)
+    * Tomomi Takenaga - Local differential privacy protection for multi-dimensional medical checkup data: real-world validation (under review)
+    * Alam MD Ashraful - Estimation of future occurrence of HbA1c elevation with and without Differential Privacy (under review)
+    * Tomohiro Kikuchi @ Jichi Medical University Radiology Department - [Synthetic data generation method for hybrid image-tabular data using two generative adversarial networks.](https://arxiv.org/abs/2308.07573)
+    * Yukihiro Nomura @ [Chiba University Nomura Laboratory](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - [DPSGD](https://1drv.ms/i/s!AsqSQ39DdrGCjagndybXE2nYbw9F-A?e=f16Qss)
+    * Aiki Yamada @ [Chiba University Nomura Laboratory](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - Investigation of federated learning for automated cerebral aneurysm detection in head MR angiography images (presented in CARS 2023)
 
 ## Research Topics
 
