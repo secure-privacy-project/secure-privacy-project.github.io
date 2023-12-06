@@ -12,7 +12,7 @@
 
 Our goal is to advance research in system software (data infrastructure, OS), data analysis (differential privacy, federated learning), and real-world applications (medical data, trajectory data) to alleviate concerns such as data leakage due to unauthorized accesses, innocent but leaky data extraction by legitimate users, and the identification of individuals (intentional or unintentional) from analysis results. We aim to contribute to the realization of a Society 5.0 that allows safe and proactive data utilization.
 
-This project has been adopted in the JST CREST field ["Creation of System Software for Society 5.0 by Integrating Fundamental Theories and System Platform Technologies"](https://www.jst.go.jp/kisoken/crest/en/research_area/ongoing/area2021-2.html).
+[This project](https://www.jst.go.jp/kisoken/crest/project/1111114/1111114_2021.html) has been adopted in the JST CREST field ["Creation of System Software for Society 5.0 by Integrating Fundamental Theories and System Platform Technologies"](https://www.jst.go.jp/kisoken/crest/en/research_area/ongoing/area2021-2.html).
 
 ## Team
 
