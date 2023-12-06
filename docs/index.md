@@ -12,38 +12,6 @@
 
 [本プロジェクト](https://www.jst.go.jp/kisoken/crest/project/1111114/1111114_2021.html) はJST CREST [「基礎理論とシステム基盤技術の融合によるSociety 5.0のための基盤ソフトウェアの創出」](https://www.jst.go.jp/kisoken/crest/research_area/ongoing/bunya2021-2.html) 領域に採択されています.
 
-## 体制
-
-* 代表
-  * [田浦健次朗](https://www.eidos.ic.i.u-tokyo.ac.jp/~tau/) 東京大学大学院 [情報理工学系研究科](https://www.i.u-tokyo.ac.jp/) [電子情報学専攻](https://www.i.u-tokyo.ac.jp/edu/course/ice/index.shtml) 
-* 主たる研究分担者
-  * [吉川正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/) 京都大学大学院 [情報学研究科](https://www.i.kyoto-u.ac.jp/) [社会情報学専攻](https://www.soc.i.kyoto-u.ac.jp/)
-  * 花岡昇平 東京大学 [附属病院](https://www.h.u-tokyo.ac.jp/) [放射線科](http://www.ut-radiology.umin.jp/) [画像情報処理解析研究室](http://www.ut-radiology.umin.jp/ical/) [CV](https://1drv.ms/w/s!AsqSQ39DdrGCg-5M5j3wuuh_IyPwPQ?e=1GGkOt)
-  * [塙敏博](https://www.cspp.cc.u-tokyo.ac.jp/hanawa/) 東京大学 [情報基盤センター](https://www.itc.u-tokyo.ac.jp/) 
-  * [曹洋](https://yangcao88.github.io/) 北海道大学 [情報科学研究院](https://www.ist.hokudai.ac.jp/) [情報理工学部門](https://www.csit.ist.hokudai.ac.jp/)
-* 共同研究者
-  * 田浦G
-    * 姜 仁河
-    * 建部 修見
-    * 合田 憲人
-    * 徐 小航
-    * Yang Chuang
-    * 椎名 峻平
-    * 清水 央子
-  * 曹G
-    * Liu Yaxiong
-    * Zheng Lele
-  * 花岡G
-    * 柴田 寿一 - [DP-Glow](https://www.mdpi.com/2076-3417/13/18/10132) 
-    * 竹永 智美 - Local differential privacy protection for multi-dimensional medical checkup data: real-world validation (under review)
-    * Alam MD Ashraful - Estimation of future occurrence of HbA1c elevation with and without Differential Privacy (under review)
-    * 菊地 智博 ＠ 自治医大放射線科 - [Synthetic data generation method for hybrid image-tabular data using two generative adversarial networks.](https://arxiv.org/abs/2308.07573)
-    * 野村 行弘 ＠ [千葉大 野村研究室](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - [DPSGD](https://1drv.ms/i/s!AsqSQ39DdrGCjagndybXE2nYbw9F-A?e=f16Qss)
-    * 山田 藍樹 ＠ [千葉大 野村研究室](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - Investigation of federated learning for automated cerebral aneurysm detection in head MR angiography images (peresented in CARS 2023)
-  * 塙G
-    * 中村 遼
-    * 空閑 洋平
-
 ## 研究内容
 
 ![目標](img/goals.png "サンプル")
@@ -118,6 +86,38 @@ end-to-endの暗号化を提供しているサービスはあるが，サービ�
 ![セキュアな医用AIの実臨床](img/HanawaHanaoka.png)
 
 ここでは主に、デプロイ側、つまり学習済みのAIをいかに秘密演算やスーパーコンピュータを使って安全に、スケーラブルに実行し、結果を臨床医や患者さんに届けるかを考え、研究を進めて参ります。
+
+## 体制
+
+* 代表
+  * [田浦健次朗](https://www.eidos.ic.i.u-tokyo.ac.jp/~tau/) 東京大学大学院 [情報理工学系研究科](https://www.i.u-tokyo.ac.jp/) [電子情報学専攻](https://www.i.u-tokyo.ac.jp/edu/course/ice/index.shtml) 
+* 主たる研究分担者
+  * [吉川正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/) 京都大学大学院 [情報学研究科](https://www.i.kyoto-u.ac.jp/) [社会情報学専攻](https://www.soc.i.kyoto-u.ac.jp/)
+  * 花岡昇平 東京大学 [附属病院](https://www.h.u-tokyo.ac.jp/) [放射線科](http://www.ut-radiology.umin.jp/) [画像情報処理解析研究室](http://www.ut-radiology.umin.jp/ical/) [CV](https://1drv.ms/w/s!AsqSQ39DdrGCg-5M5j3wuuh_IyPwPQ?e=1GGkOt)
+  * [塙敏博](https://www.cspp.cc.u-tokyo.ac.jp/hanawa/) 東京大学 [情報基盤センター](https://www.itc.u-tokyo.ac.jp/) 
+  * [曹洋](https://yangcao88.github.io/) 北海道大学 [情報科学研究院](https://www.ist.hokudai.ac.jp/) [情報理工学部門](https://www.csit.ist.hokudai.ac.jp/)
+* 共同研究者
+  * 田浦G
+    * 姜 仁河
+    * 建部 修見
+    * 合田 憲人
+    * 徐 小航
+    * Yang Chuang
+    * 椎名 峻平
+    * 清水 央子
+  * 曹G
+    * Liu Yaxiong
+    * Zheng Lele
+  * 花岡G
+    * 柴田 寿一 - [DP-Glow](https://www.mdpi.com/2076-3417/13/18/10132) 
+    * 竹永 智美 - Local differential privacy protection for multi-dimensional medical checkup data: real-world validation (under review)
+    * Alam MD Ashraful - Estimation of future occurrence of HbA1c elevation with and without Differential Privacy (under review)
+    * 菊地 智博 ＠ 自治医大放射線科 - [Synthetic data generation method for hybrid image-tabular data using two generative adversarial networks.](https://arxiv.org/abs/2308.07573)
+    * 野村 行弘 ＠ [千葉大 野村研究室](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - [DPSGD](https://1drv.ms/i/s!AsqSQ39DdrGCjagndybXE2nYbw9F-A?e=f16Qss)
+    * 山田 藍樹 ＠ [千葉大 野村研究室](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - Investigation of federated learning for automated cerebral aneurysm detection in head MR angiography images (peresented in CARS 2023)
+  * 塙G
+    * 中村 遼
+    * 空閑 洋平
 
 ## 論文
 
