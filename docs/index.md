@@ -7,6 +7,8 @@
 # [実応用に即したプライバシー保護解析とセキュアデータ基盤](https://www.jst.go.jp/kisoken/crest/project/1111114/1111114_2021.html)
 # [Privacy-Preserving Data Analysis and Secure Data Infrastructure for Real Applications](https://www.jst.go.jp/kisoken/crest/project/1111114/1111114_2021.html)
 
+[Japanese](index.md) / [English](index_eng.md)
+
 ## 目標
 
 不正侵入によるデータの漏洩, 正当なユーザによるデータの持ち出し, 解析結果からの(故意または過失による)個人の特定, などの懸念を払拭, 軽減する, システムソフトウェア(データ基盤, OS), データ解析(差分プライバシー, 連合学習), 実応用(医療データ, 軌跡データ活用)の研究を一体的に進め, 安全に積極的なデータ活用可能なSociety 5.0の実現に貢献することを目指します.
@@ -23,6 +25,10 @@
  * [塙敏博](https://www.cspp.cc.u-tokyo.ac.jp/hanawa/) 東京大学 [情報基盤センター](https://www.itc.u-tokyo.ac.jp/) 
  * [曹洋](https://yangcao88.github.io/) 北海道大学 [情報科学研究院](https://www.ist.hokudai.ac.jp/) [情報理工学部門](https://www.csit.ist.hokudai.ac.jp/)
 * 共同研究者
+ * 田浦G
+   * 姜仁河
+   * 建部修見
+   * 合田憲人
  * 花岡G
    * 柴田 寿一 - [DP-Glow](https://www.mdpi.com/2076-3417/13/18/10132) 
    * 竹永 智美 - Local differential privacy protection for multi-dimensional medical checkup data: real-world validation (under review)
@@ -87,15 +93,17 @@
  1. 医療サブテーマ
   * 医療サブテーマでは、以下の3つの実証を主に行う
   * 医療現場で実用可能な差分プライバシーによるプライバシー保護システムの開発、デプロイ、実使用経験の蓄積
-  * 田浦Gとの共働 -
-    ![個人情報保護を強制するプログラミング基盤 の 医療への展開](img/TauraHanaoka.png)
-    ここでは主に、AIを学習する側、特にAI学習に必須である学習データセットのプライバシーを守るため、
-    田浦Gが開発しているプライバシー強制技術を使った上で、AIをdifferentially private stochastic gradient discent (DPSGD)の
-    枠組みで学習することにより、学習データに使われた患者さんの情報が漏洩しにくいようなAI学習の手法論を確立することが目的です。
-  * 塙Gとの共働 -
-    ![セキュアな医用AIの実臨床](img/HanawaHanaoka.png)
-    ここでは主に、デプロイ側、つまり学習済みのAIをいかに秘密演算やスーパーコンピュータを使って安全に、スケーラブルに
-    実行し、結果を臨床医や患者さんに届けるかを考え、研究を進めて参ります。
+  * 田浦Gとの共働 
+
+![個人情報保護を強制するプログラミング基盤 の 医療への展開](img/TauraHanaoka.png)
+
+ここでは主に、AIを学習する側、特にAI学習に必須である学習データセットのプライバシーを守るため、
+田浦Gが開発しているプライバシー強制技術を使った上で、AIをdifferentially private stochastic gradient discent (DPSGD)の枠組みで学習することにより、学習データに使われた患者さんの情報が漏洩しにくいようなAI学習の手法論を確立することが目的です。
+  * 塙Gとの共働
+
+![セキュアな医用AIの実臨床](img/HanawaHanaoka.png)
+
+ここでは主に、デプロイ側、つまり学習済みのAIをいかに秘密演算やスーパーコンピュータを使って安全に、スケーラブルに実行し、結果を臨床医や患者さんに届けるかを考え、研究を進めて参ります。
 
 ## 論文
 
