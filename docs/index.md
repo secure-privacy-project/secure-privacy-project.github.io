@@ -33,7 +33,9 @@
    * 菊地 智博 ＠ 自治医大放射線科 - [Synthetic data generation method for hybrid image-tabular data using two generative adversarial networks.](https://arxiv.org/abs/2308.07573)
    * 野村 行弘 ＠ [千葉大 野村研究室](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - [DPSGD](https://1drv.ms/i/s!AsqSQ39DdrGCjagndybXE2nYbw9F-A?e=f16Qss)
    * 山田 藍樹 ＠ [千葉大 野村研究室](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - Investigation of federated learning for automated cerebral aneurysm detection in head MR angiography images (peresented in CARS 2023)
-
+ * 塙G
+   * 中村 遼
+   * 空閑 洋平
 
 ## 研究内容
 
