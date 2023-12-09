@@ -4,33 +4,13 @@
   }
 </style>
 
-# [実応用に即したプライバシー保護解析とセキュアデータ基盤](https://www.jst.go.jp/kisoken/crest/project/1111114/1111114_2021.html)
-# [Privacy-Preserving Data Analysis and Secure Data Infrastructure for Real Applications](https://www.jst.go.jp/kisoken/crest/project/1111114/1111114_2021.html)
+[Japanese](index.md) / [English](index_eng.md)
 
 ## 目標
 
-不正侵入によるデータの漏洩, 正当なユーザによるデータの持ち出し, 解析結果からの(故意または過失による)個人の特定, などの懸念を払拭, 軽減する, システムソフトウェア(データ基盤, OS), データ解析(差分プライバシー, 連合学習), 実応用(医療データ, 軌跡データ活用)の研究を一体的に進め, 安全に積極的なデータ活用可能なSociety 5.0の実現に貢献することを目指します.
+不正侵入によるデータの漏洩, 正当なユーザによるデータの持ち出し, 解析結果からの(故意または過失による)個人の特定, などの懸念を払拭, 軽減する, システムソフトウェア(データ基盤, OS), データ解析(差分プライバシー, 連合学習), 実応用(医療データ, 軌跡データ活用)の研究を一体的に進め, 安全に積極的なデータ活用可能なSociety 5.0の実現に貢献することを目指します..
 
-本プロジェクトはJST CREST [「基礎理論とシステム基盤技術の融合によるSociety 5.0のための基盤ソフトウェアの創出」](https://www.jst.go.jp/kisoken/crest/research_area/ongoing/bunya2021-2.html) 領域に採択されています.
-
-## 体制
-
-* 代表
- * [田浦健次朗](https://www.eidos.ic.i.u-tokyo.ac.jp/~tau/) 東京大学大学院 [情報理工学系研究科](https://www.i.u-tokyo.ac.jp/) [電子情報学専攻](https://www.i.u-tokyo.ac.jp/edu/course/ice/index.shtml) 
-* 主たる研究分担者
- * [吉川正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/) 京都大学大学院 [情報学研究科](https://www.i.kyoto-u.ac.jp/) [社会情報学専攻](https://www.soc.i.kyoto-u.ac.jp/)
- * 花岡昇平 東京大学 [附属病院](https://www.h.u-tokyo.ac.jp/) [放射線科](http://www.ut-radiology.umin.jp/) [画像情報処理解析研究室](http://www.ut-radiology.umin.jp/ical/) [CV](https://1drv.ms/w/s!AsqSQ39DdrGCg-5M5j3wuuh_IyPwPQ?e=1GGkOt)
- * [塙敏博](https://www.cspp.cc.u-tokyo.ac.jp/hanawa/) 東京大学 [情報基盤センター](https://www.itc.u-tokyo.ac.jp/) 
- * [曹洋](https://yangcao88.github.io/) 北海道大学 [情報科学研究院](https://www.ist.hokudai.ac.jp/) [情報理工学部門](https://www.csit.ist.hokudai.ac.jp/)
-* 共同研究者
- * 花岡G
-   * 柴田 寿一 - [DP-Glow](https://www.mdpi.com/2076-3417/13/18/10132) 
-   * 竹永 智美 - Local differential privacy protection for multi-dimensional medical checkup data: real-world validation (under review)
-   * Alam MD Ashraful - Estimation of future occurrence of HbA1c elevation with and without Differential Privacy (under review)
-   * 菊地 智博 ＠ 自治医大放射線科 - [Synthetic data generation method for hybrid image-tabular data using two generative adversarial networks.](https://arxiv.org/abs/2308.07573)
-   * 野村 行弘 ＠ [千葉大 野村研究室](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - [DPSGD](https://1drv.ms/i/s!AsqSQ39DdrGCjagndybXE2nYbw9F-A?e=f16Qss)
-   * 山田 藍樹 ＠ [千葉大 野村研究室](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - Investigation of federated learning for automated cerebral aneurysm detection in head MR angiography images (peresented in CARS 2023)
-
+[本プロジェクト](https://www.jst.go.jp/kisoken/crest/project/1111114/1111114_2021.html) はJST CREST [「基礎理論とシステム基盤技術の融合によるSociety 5.0のための基盤ソフトウェアの創出」](https://www.jst.go.jp/kisoken/crest/research_area/ongoing/bunya2021-2.html) 領域に採択されています.
 
 ## 研究内容
 
@@ -50,9 +30,17 @@
  1. 柔軟なプライバシー保護データ解析・機械学習 
  1. 医療・軌跡データ実応用での実証 
 
-## 管理者への信頼に依拠しないセキュアファイルシステム 
+### 管理者への信頼に依拠しないセキュアファイルシステム 
 
-## プライバシー保護を強制・追跡可能なシステム機構
+このサブテーマでは、以下について研究する．
+
+* TEEを用いた安全な鍵管理: セキュアファイルシステムにおいて，重要な機能となる鍵の管理について，管理者やシステムへの信頼に依拠しないために，Trusted Execution Environment (TEE) 内での管理を行う．これによりTrusted Computing Base (TCB)を最小限とし，安全性と性能を両立させるセキュアファイルシステムを実現する. 
+* 効率の良い共有鍵管理: ユーザ間で柔軟に共有処理ができる必要があるのと同時に，一度許可した共有を効率的に取り消す仕組みが必要となる．
+end-to-endの暗号化を提供しているサービスはあるが，サービス固有の暗号化方式ではなく，汎用的な形で実現する．
+* 分散ファイルシステムGfarm-SPの実現: セキュアなデータ基盤をオープンなファイルシステム技術として実現し, それをmdxなどの解析基盤(高性能計算機)上で運用可能にすることを目指す. 実装は分散ファイルシステムGfarmを元にする予定である．
+並列ファイルシステム, 分散ファイルシステムに必要な高性能実装にも焦点を当て, NVIDIA Data Processing Unit (DPU), GPUなどを用いた暗号化・復号処理のオフローディングの効果も検証する．
+
+### プライバシー保護を強制・追跡可能なシステム機構
 
  * このサブテーマでは, 個人情報を特定する解析結果の出力を抑止するためのシステム, --- 具体的にはプログラミング言語処理系 --- について研究する
  * 解析結果から個人情報を特定できないようにするための仕組みとして, (グローバル)差分プライバシーの枠組みを活用する
@@ -62,7 +50,7 @@
    * 適切なグローバル差分プライバシー機構を通した(確率的なノイズを加えた)データのみ出力を許可する
    ことによりプライバシー漏洩を防止する
 
-## 柔軟なプライバシー保護データ解析・機械学習 
+### 柔軟なプライバシー保護データ解析・機械学習 
 
 このサブテーマでは、以下の項目を研究する．
 
@@ -82,17 +70,66 @@
 
 連合学習には，各クライアントのデータの貢献度を評価することは重要な課題であり，データ市場，説明可能なAI，または悪意のあるクライアントの検出に応用される．特に，シャープレイ値（SV）は，貢献度評価のためのよく使われた指標である．しかし，既存のFLにおけるSV計算方法は，プライバシーに配慮していない．つまり，既存手法は，サーバーがプライバシー保護されていないFLモデルとクライアントのデータにアクセスできると仮定している．したがって，本トピックでは，プライバシー保護されたSV計算の問題について研究する．我々は，Cross-silo FLにおいて，初めて効率的かつプライベートなSV計算プロトコル，SecSV，を提案した．SecSVの特徴は，ハイブリッドプライバシー保護スキームを利用して，テストデータとモデル間の暗号文-暗号文の乗算を避ける．実験では，SecSVが同型暗号を使用するBaselineよりも5.9-18.0倍速いことを示している．
 
-## 医療・軌跡データ実応用での実証 
+### 医療・軌跡データ実応用での実証 
 
  1. 医療サブテーマ
   * 医療サブテーマでは、以下の3つの実証を主に行う
   * 医療現場で実用可能な差分プライバシーによるプライバシー保護システムの開発、デプロイ、実使用経験の蓄積
-  * 田浦Gとの共働 -
-    ![個人情報保護を強制するプログラミング基盤 の 医療への展開](img/TauraHanaoka.png)
-    ここでは主に、AIを学習する側、特にAI学習に必須である学習データセットのプライバシーを守るため、
-    田浦Gが開発しているプライバシー強制技術を使った上で、AIをdifferentially private stochastic gradient discent (DPSGD)の
-    枠組みで学習することにより、学習データに使われた患者さんの情報が漏洩しにくいようなAI学習の手法論を確立することが目的です。
-  * 塙Gとの共働 -
-    ![セキュアな医用AIの実臨床](img/HanawaHanaoka.png)
-    ここでは主に、デプロイ側、つまり学習済みのAIをいかに秘密演算やスーパーコンピュータを使って安全に、スケーラブルに
-    実行し、結果を臨床医や患者さんに届けるかを考え、研究を進めて参ります。
+  * 田浦Gとの共働 
+
+![個人情報保護を強制するプログラミング基盤 の 医療への展開](img/TauraHanaoka.png)
+
+ここでは主に、AIを学習する側、特にAI学習に必須である学習データセットのプライバシーを守るため、
+田浦Gが開発しているプライバシー強制技術を使った上で、AIをdifferentially private stochastic gradient discent (DPSGD)の枠組みで学習することにより、学習データに使われた患者さんの情報が漏洩しにくいようなAI学習の手法論を確立することが目的です。
+  * 塙Gとの共働
+
+![セキュアな医用AIの実臨床](img/HanawaHanaoka.png)
+
+ここでは主に、デプロイ側、つまり学習済みのAIをいかに秘密演算やスーパーコンピュータを使って安全に、スケーラブルに実行し、結果を臨床医や患者さんに届けるかを考え、研究を進めて参ります。
+
+## 体制
+
+* 代表
+  * [田浦健次朗](https://www.eidos.ic.i.u-tokyo.ac.jp/~tau/) 東京大学大学院 [情報理工学系研究科](https://www.i.u-tokyo.ac.jp/) [電子情報学専攻](https://www.i.u-tokyo.ac.jp/edu/course/ice/index.shtml) 
+* 主たる研究分担者
+  * [吉川正俊](https://www.db.soc.i.kyoto-u.ac.jp/~yoshikawa/) 京都大学大学院 [情報学研究科](https://www.i.kyoto-u.ac.jp/) [社会情報学専攻](https://www.soc.i.kyoto-u.ac.jp/)
+  * 花岡昇平 東京大学 [附属病院](https://www.h.u-tokyo.ac.jp/) [放射線科](http://www.ut-radiology.umin.jp/) [画像情報処理解析研究室](http://www.ut-radiology.umin.jp/ical/) [CV](https://1drv.ms/w/s!AsqSQ39DdrGCg-5M5j3wuuh_IyPwPQ?e=1GGkOt)
+  * [塙敏博](https://www.cspp.cc.u-tokyo.ac.jp/hanawa/) 東京大学 [情報基盤センター](https://www.itc.u-tokyo.ac.jp/) 
+  * [曹洋](https://yangcao88.github.io/) 北海道大学 [情報科学研究院](https://www.ist.hokudai.ac.jp/) [情報理工学部門](https://www.csit.ist.hokudai.ac.jp/)
+* 共同研究者
+  * 田浦G
+    * 姜 仁河
+    * 建部 修見
+    * 合田 憲人
+    * 徐 小航
+    * Yang Chuang
+    * 椎名 峻平
+    * 清水 央子
+  * 曹G
+    * Liu Yaxiong
+    * Zheng Lele
+  * 花岡G
+    * 柴田 寿一 - [DP-Glow](https://www.mdpi.com/2076-3417/13/18/10132) 
+    * 竹永 智美 - Local differential privacy protection for multi-dimensional medical checkup data: real-world validation (under review)
+    * Alam MD Ashraful - Estimation of future occurrence of HbA1c elevation with and without Differential Privacy (under review)
+    * 菊地 智博 ＠ 自治医大放射線科 - [Synthetic data generation method for hybrid image-tabular data using two generative adversarial networks.](https://arxiv.org/abs/2308.07573)
+    * 野村 行弘 ＠ [千葉大 野村研究室](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - [DPSGD](https://1drv.ms/i/s!AsqSQ39DdrGCjagndybXE2nYbw9F-A?e=f16Qss)
+    * 山田 藍樹 ＠ [千葉大 野村研究室](https://www.cfme.chiba-u.jp/staff/detail.php?index=nomura) - Investigation of federated learning for automated cerebral aneurysm detection in head MR angiography images (peresented in CARS 2023)
+  * 塙G
+    * 中村 遼
+    * 空閑 洋平
+
+## 論文
+
+ 1. Shuyuan Zheng, Yang Cao, Masayuki Yoshikawa. "Secure Shapley Value for Cross-Silo Federated Learning." _Proceedings of the VLDB Endowment._ 2023.
+ 1. Fumiharu Kato, Yang Cao, Masayuki Yoshikawa. "Olive: Oblivious Federated Learning on Trusted Execution Environment against the Risk of Sparsification." _Proceedings of the VLDB Endowment._ 2023.
+ 1. Shun Takagi, Fumiharu Kato, Yang Cao, Masatoshi Yoshikawa. "From Bounded to Unbounded: Privacy Amplification via Shuffling with Dummies." _2023 IEEE 36th Computer Security Foundations Symposium (CSF)._ 2023.
+ 1. Ruixuan Liu, Yang Cao, Yanlin Wang, Lingjuan Lyu, Chen Yun, Chang Hong. "PrivateRec: Differentially Private Model Training and Online Serving for Federated News Recommendation." _KDD '23: Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining._ 2023.
+ 1. Shun Takagi, Yang Cao, Yasuhito Asano, Masatoshi Yoshikawa. "Geo-Graph-Indistinguishability: Location Privacy on Road Networks with Differential Privacy." _IEICE Transactions on Information and Systems._ 2023.
+ 1. Chao Tan, Yang Cao, Sheng Li, Masatoshi Yoshikawa. "General or Specific? Investigating Effective Privacy Protection in Federated Learning for Speech Emotion Recognition." _ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)._ 2023.
+ 1. Shumpei Shiina, Kenjiro Taura. "Itoyori: Reconciling Global Address Space and Global Fork-Join Task Parallelism." _In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC '23)._ 2023.
+ 1. Hirobumi Shibata, Shouhei Hanaoka, Yang Cao, Masatoshi Yoshikawa, Tomomi Takenaga, Yukihiro Nomura, Naoto Hayashi, Osamu Abe. "Local Differential Privacy Image Generation Using Flow-Based Deep Generative Models." _Applied sciences._ 2023.
+ 1. Xiaoyu Li, Yang Cao, Masatoshi Yoshikawa. "Locally Private Streaming Data Release with Shuffling and Subsampling." _2023 IEEE 39th International Conference on Data Engineering Workshops (ICDEW)._ 2023.
+ 1. Ryota Hiraishi, Masatoshi Yoshikawa, Yang Cao, Sumio Fujita, Hidehito Gomi. "Mechanisms to Address Different Privacy Requirements for Users and Locations." _IEICE Transactions on Information and Systems._ 2023.
+ 1. Cao Xiao, Yang Cao, Primal Pappachan, Atsuyoshi Nakamura, Masatoshi Yoshikawa. "Differentially Private Streaming Data Release Under Temporal Correlations via Post-processing." _Lecture Notes in Computer Science._ 2023.
+
