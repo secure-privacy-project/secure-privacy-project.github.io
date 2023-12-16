@@ -64,7 +64,7 @@ def find_work_of_doi(doi, limit=None):
         print(f"{n_works} (> 1) works of doi:{doi} found, take the first", file=sys.stderr)
     return works[0]
 
-def format_work(work):
+def xxx_format_work(work):
     if DBG>=1:
         ym = yaml.dump(work["locations"], Dumper=yaml.CDumper)
         print(ym)
@@ -80,7 +80,7 @@ def format_work(work):
     authors = ", ".join(authors)
     return f"{authors}. _{title}_. {venue_name}. {pub_year}"
 
-def format_work_dict(doi, work):
+def xxx_format_work_dict(doi, work):
     if DBG>=1:
         ym = yaml.dump(work["locations"], Dumper=yaml.CDumper)
         print(ym)
@@ -96,35 +96,71 @@ def format_work_dict(doi, work):
     authors = ", ".join(authors)
     return {"doi" : doi, "title" : title, "year" : pub_year, "venue" : venue_name, "authors" : authors}
 
-def read_dois_from_excel(xlsx):
+def xxx_read_dois_from_excel(xlsx):
     df = pd.read_excel(xlsx)
     dois = list(df["doi または 論文の landing page"])
     return dois
 
+def xxx_find_col(work, col):
+    if col == "title":
+        return work.get("title")
+    elif col == "year":
+        return work.get("publication_year")
+    elif col == "venue":
+        prim_loc = work.get("primary_location")
+        if prim_loc is None:
+            return None
+        source = prim_loc.get("source")
+        if source is None:
+            return None
+        return source.get("display_name")
+    elif col == "authors":
+        authors = [author['author']['display_name'] for author in work.get("authorships", [])]
+        authors = ", ".join(authors)
+        return authors
+    else:
+        assert(0), col
+
+def any_data_missing(row, cols):
+    for col in cols:
+        if pd.isnull(row[col]):
+            return 1
+    return 0
+
+def lookup_database(row, cols):
+    doi = row["doi または 論文の landing page"]
+    work = find_work_of_doi(doi)
+    if work is None:
+        return row
+    if DBG>=1:
+        ym = yaml.dump(work["locations"], Dumper=yaml.CDumper)
+        print(ym)
+    for col in cols:
+        if pd.isnull(row[col]):
+            row[col] = find_col(work, col)
+    return row
+
+def complement_bib(df):
+    """
+    complement missing cells in the bibliography dataframe
+    """
+    rows = []
+    necessary_cols = ["title", "year", "venue", "authors"]
+    for i, row in df.iterrows():
+        if any_data_missing(row, necessary_cols):
+            new_row = lookup_database(row, necessary_cols)
+        else:
+            new_row = row
+        rows.append(new_row)
+    return pd.DataFrame(rows)
+
 def main():
-    dois = [
-        "10.14778/3587136.3587141",
-        "10.14778/3603581.3603583",
-        "10.1587/transinf.2022DAP0011",
-        "10.3390/app131810132",
-        "10.1587/transinf.2023EDP7050",
-        "10.1007/978-3-031-37586-6_12",
-        "10.1109/CSF57540.2023.00034",
-        "10.1145/3580305.3599889",
-        "10.1109/ICASSP49357.2023.10096844",
-        "10.1145/3581784.3607049",
-        "10.1109/ICDEW58674.2023.00026",
-    ]
-    xlsx = "onedrive/secure-privacy-crest/共有情報/publication.xlsx"
-    dois = read_dois_from_excel(xlsx)
-    works = []
-    for i, doi in enumerate(dois):
-        print(f"=== {i} ===")
-        work = find_work_of_doi(doi)
-        works.append(format_work_dict(doi, work))
-    df = pd.DataFrame(works)
-    df.to_excel("bib_data.xlsx")
-
+    # in_xlsx = "onedrive/secure-privacy-crest/5Publications/publications.xlsx"
+    # out_xlsx = "onedrive/secure-privacy-crest/5Publications/publications_output.xlsx"
+    in_xlsx = sys.argv[1]
+    out_xlsx = sys.argv[2]
+    in_df = pd.read_excel(in_xlsx)
+    out_df = complement_bib(in_df)
+    out_df.to_excel(out_xlsx, index=False)
+    
 main()
-
-

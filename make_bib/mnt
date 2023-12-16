@@ -1,6 +1,13 @@
 #!/bin/bash
+
 cfg=onedrive-taura-kenjiro-gmail-com
 dir=onedrive
-mkdir -p ${dir}
-rclone config reconnect ${cfg}:
-rclone mount --daemon --vfs-cache-mode full --write-back-cache --default-permissions ${cfg}: ${dir}
+if [ x"$1" = "xu" ]; then
+    fusermount -u ${dir}
+else
+    mkdir -p ${dir}
+    rclone config reconnect ${cfg}:
+    # driveid b33e5e25476e7680
+    rclone mount --daemon --vfs-cache-mode full --write-back-cache --default-permissions ${cfg}: ${dir}
+fi
+
