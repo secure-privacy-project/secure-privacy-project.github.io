@@ -6,8 +6,13 @@ DBG = 1
 
 def make_markdown_citation(row):
     d = dict(row)
+    d["url"] = d.get("doi または 論文の landing page")
+    if d["url"]:
+        d["title_url"] = "[{url}]({title})".format(**d)
+    else:
+        d["title_url"] = title
     print(d)
-    return '{authors}. "{title}." _{venue}._ {year}.'.format(**d)
+    return '{authors}. "{title_url}." _{venue}._ {year}.'.format(**d)
 
 def main():
     #in_xlsx = "onedrive/secure-privacy-crest/5Publications/publication.xlsx"
