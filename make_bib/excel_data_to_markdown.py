@@ -8,7 +8,7 @@ def make_markdown_citation(row):
     d = dict(row)
     d["url"] = d.get("doi または 論文の landing page")
     if d["url"]:
-        d["title_url"] = "[{url}]({title})".format(**d)
+        d["title_url"] = "[{title}]({url})".format(**d)
     else:
         d["title_url"] = title
     print(d)
