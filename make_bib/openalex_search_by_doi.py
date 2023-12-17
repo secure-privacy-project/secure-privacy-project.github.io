@@ -101,7 +101,7 @@ def xxx_read_dois_from_excel(xlsx):
     dois = list(df["doi または 論文の landing page"])
     return dois
 
-def xxx_find_col(work, col):
+def find_col(work, col):
     if col == "title":
         return work.get("title")
     elif col == "year":

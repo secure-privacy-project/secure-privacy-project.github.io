@@ -21,6 +21,7 @@ def main():
     out_md = sys.argv[2]
     df = pd.read_excel(in_xlsx)
     df = df.fillna('')
+    df = df.sort_values("year")
     citations = []
     for i, row in df.iterrows():
         citations.append(make_markdown_citation(row))

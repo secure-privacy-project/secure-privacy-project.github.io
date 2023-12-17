@@ -1,3 +1,8 @@
+ 1. 空閑 洋平, 中村 遼. "[遠隔会議システムの計測データを用いた広域ネットワーク品質計測 ](http://id.nii.ac.jp/1001/00222632/)." _インターネットと運用技術シンポジウム論文集 ._ 2022.
+ 1. Shun Takagi, Fumiharu Kato, Yang Cao, Masatoshi Yoshikawa. "[Asymmetric Differential Privacy](https://doi.org/10.1109/BigData55660.2022.10020709)." _2022 IEEE International Conference on Big Data (Big Data)._ 2022.
+ 1. Ryota Hiraishi, Masatoshi Yoshikawa, Shun Takagi, Yang Cao, Sumio Fujita, Hidehito Gomi. "[Mitigating Privacy Vulnerability Caused by Map Asymmetry](https://doi.org/10.1007/978-3-031-10684-2_5)." _Springer eBooks._ 2022.
+ 1. Shuyuan Zheng, Yang Cao, Masatoshi Yoshikawa, Huizhong Li, Yong Qiang. "[FL-Market: Trading Private Models in Federated Learning](https://doi.org/10.1109/BigData55660.2022.10020232)." _2022 IEEE International Conference on Big Data (Big Data)._ 2022.
+ 1. Shang Liu, Yang Cao, Takao Murakami, Masatoshi Yoshikawa. "[A Crypto-Assisted Approach for Publishing Graph Statistics with Node Local Differential Privacy](https://doi.org/10.1109/BigData55660.2022.10020435)." _2022 IEEE International Conference on Big Data (Big Data)._ 2022.
  1. Shuyuan Zheng, Yang Cao, Masayuki Yoshikawa. "[Secure Shapley Value for Cross-Silo Federated Learning](https://doi.org/10.14778/3587136.3587141)." _Proceedings of the VLDB Endowment._ 2023.
  1. Fumiharu Kato, Yang Cao, Masayuki Yoshikawa. "[Olive: Oblivious Federated Learning on Trusted Execution Environment against the Risk of Sparsification](https://doi.org/10.14778/3603581.3603583)." _Proceedings of the VLDB Endowment._ 2023.
  1. Shun Takagi, Fumiharu Kato, Yang Cao, Masatoshi Yoshikawa. "[From Bounded to Unbounded: Privacy Amplification via Shuffling with Dummies](https://doi.org/10.1109/CSF57540.2023.00034)." _2023 IEEE 36th Computer Security Foundations Symposium (CSF)._ 2023.
@@ -9,4 +14,3 @@
  1. Xiaoyu Li, Yang Cao, Masatoshi Yoshikawa. "[Locally Private Streaming Data Release with Shuffling and Subsampling](https://doi.org/10.1109/ICDEW58674.2023.00026)." _2023 IEEE 39th International Conference on Data Engineering Workshops (ICDEW)._ 2023.
  1. Ryota Hiraishi, Masatoshi Yoshikawa, Yang Cao, Sumio Fujita, Hidehito Gomi. "[Mechanisms to Address Different Privacy Requirements for Users and Locations](https://doi.org/10.1587/transinf.2023EDP7050)." _IEICE Transactions on Information and Systems._ 2023.
  1. Cao Xiao, Yang Cao, Primal Pappachan, Atsuyoshi Nakamura, Masatoshi Yoshikawa. "[Differentially Private Streaming Data Release Under Temporal Correlations via Post-processing](https://doi.org/10.1007/978-3-031-37586-6_12)." _Lecture Notes in Computer Science._ 2023.
- 1. 空閑 洋平, 中村 遼. "[遠隔会議システムの計測データを用いた広域ネットワーク品質計測 ](http://id.nii.ac.jp/1001/00222632/)." _インターネットと運用技術シンポジウム論文集 ._ 2022.
