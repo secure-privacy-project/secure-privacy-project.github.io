@@ -29,7 +29,7 @@ Our goal is to advance research in system software (data infrastructure, OS), da
     * JIANG Renhe
     * Kento Aida
   * Shouhei Hanaoka Group
-    * Shuichi Shibata - [DP-Glow](https://www.mdpi.com/2076-3417/13/18/10132)
+    * Hisaichi Shibata - [DP-Glow](https://www.mdpi.com/2076-3417/13/18/10132)
     * Tomomi Takenaga - Local differential privacy protection for multi-dimensional medical checkup data: real-world validation (under review)
     * Alam MD Ashraful - Estimation of future occurrence of HbA1c elevation with and without Differential Privacy (under review)
     * Tomohiro Kikuchi @ Jichi Medical University Radiology Department - [Synthetic data generation method for hybrid image-tabular data using two generative adversarial networks.](https://arxiv.org/abs/2308.07573)
